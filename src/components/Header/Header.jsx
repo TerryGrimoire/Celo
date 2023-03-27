@@ -10,7 +10,7 @@ function Burger({ helmet }) {
       </Link>
       <Link to="/Services">
         <button className="CTA_home" type="button">
-          Nos pizzas
+          Notre menu
         </button>
       </Link>
     </header>
