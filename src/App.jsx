@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   const helmet = {
-    title: "Planet Pizza",
+    title: "A la table de Celo",
     href: "https://changehref.com",
     description: "Les pizzas Hallal de Saint-Denis",
   };

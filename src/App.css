@@ -1,15 +1,18 @@
 /********************************************************************* CSS VARIABLES *********************************************************************/ 
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@font-face {
+  font-family: moon;
+  src: url("/CupCakes.otf");
+}
 :root {
 
   --main-bg-color : #FFFFFF;
   --secondary-bg-color : #191919;
-  --third-color : #FFEC2E;
+  --third-color : #efe46e;
   --fourth-color : #EE340A;
   --button-color: #0055FF;
   --box-shadow: #e1e1e1 0px 1px 3px, #e1e1e1 0px 1px 3px, #e1e1e1 0px 1px 3px;
-  --font-title : 'Bungee', cursive;
+  --font-title : moon;
   --font-text :'Roboto Condensed', sans-serif;
 }
 
@@ -173,6 +176,8 @@ transform: rotate(180deg);
 
 .logo {
   height: 4rem;
+  width: 7rem;
+  object-fit: cover;
   width: auto;
   margin: 0;
   padding: 0;
@@ -187,7 +192,7 @@ transform: rotate(180deg);
   border-radius: 0.35rem;
   font-weight: bolder;
   font-size: 1rem;
-  color: var(--fourth-color);
+  color: var(--secondary-bg-color);
 }
 /********************************************************************* HOME *********************************************************************/ 
 .main_container {
@@ -218,8 +223,8 @@ transform: rotate(180deg);
 }
 
 .landing_page h1 {
-  color: var(--fourth-color);
-  text-shadow: var(--third-color) 2px 2px 0px;
+  color: black;
+  text-shadow: white 2px 2px 0px;
 }
   .background_img {
     position: absolute;
