@@ -3,6 +3,10 @@ import { Helmet } from "react-helmet-async";
 import papa from "papaparse";
 import Image from "../components/Home/LandingPage/Image";
 
+import tel from "../assets/tel.png";
+import loc from "../assets/loc.png";
+import cal from "../assets/cal.png";
+
 export default function Home({ helmet }) {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -49,58 +53,55 @@ export default function Home({ helmet }) {
       <Image title={helmet.title} />
       <section className="articles_container">
         <article>
-          <h2>Découvrez notre entreprise familiale</h2>
+          <h2>Restaurant et traiteur halal</h2>
           <p>
-            Bienvenue chez Planet Pizza, votre destination pour des pizzas
-            délicieuses à Saint-Denis. Ici, chaque pizza est cuite avec soin et
-            amour dans nos fours. Nous sommes fiers d'être une entreprise
-            familiale qui offre des pizzas délicieuses à nos clients depuis de
-            nombreuses années. Que vous optiez pour une margherita classique,
-            une pepperoni épicée, ou quelque chose de plus original, nous avons
-            la pizza parfaite pour vous.
+            Bienvenue à la table de Celo ! Nous sommes fiers de vous offrir une
+            expérience culinaire unique au bon goût et saveurs de La Réunion.
+            Nos rougails et caris sont cuisinés sur place avec passion et amour
+            dans le respect des normes alimentaires halal. En plus de notre
+            restaurant, nous offrons également un service traiteur pour vos
+            événements spéciaux. Que ce soit pour un mariage, un anniversaire ou
+            une fête d'entreprise, nous sommes là pour satisfaire vos papilles
+            gustatives.
           </p>
         </article>
         <article>
-          <h2>Des pizzas Halal de qualité</h2>
+          <h2>Notre tradition dans vos assiettes </h2>
           <p>
-            Nous utilisons les ingrédients les plus frais et conformes aux
-            normes halal pour préparer nos pizzas. Tous nos produits sont
-            d'ailleurs labelisés halal Réunion. Nous attachons un soin
-            particulier à la selection de nos ingrédients et à la satisfaction
-            de vos papilles.
+            Parce que nous attachons une importance capitale à notre héritage
+            culinaire, nous cuisinons chacun de nos plats en suivant les
+            recettes familiales transmises de génération en génération. Nous
+            n'utilisons aucun produit ou aliment transformé, nous suivons les
+            règles d'higiène avec une rigueur irréprochable. Le moins qu'on
+            puisse dire, c'est qu'à la table de Celo on y mange bien, on y mange
+            sain.
           </p>
         </article>
       </section>
       <section>
-        <div className="iframe">
-          <h2>Nous retrouver</h2>
-          <div className="locaux">
-            <p>
-              Nous sommes ravis de vous retrouver dans nos locaux à Saint-Denis.
-            </p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1262.0745646142047!2d55.45360514743608!3d-20.8829594607785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21827f06fb2d8581%3A0x24bcf04f3459092f!2s94%20Rue%20Sainte-Marie%2C%20Saint-Denis%2097400%2C%20La%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1675499040432!5m2!1sfr!2sfr"
-              title="google maps"
-            />
-          </div>
-        </div>
         <div>
           <h2>Nous contacter</h2>
-          <div>
+          <div className="locaux">
             <p>
-              Téléphone :<a href="tel:+262262 47 78 61"> 02 62 47 78 61</a>
+              <img src={loc} alt="icone pour localisation" />
+              <span className="gras">
+                39 bis Léon Lepervanche, 97420, Le Port, La Réunion
+              </span>
             </p>
             <p>
-              Email : {"  "}
-              <a
-                href="mailto:mathieugueguin@live.fr
-"
-              >
-                mathieugueguin@live.fr
-              </a>
+              <img src={tel} alt="icone pour téléphone" />
+              <span className="gras">
+                Contactez nous directement au{" "}
+                <a href="tel:+262692926601">0692926601</a>
+              </span>
+            </p>
+            <p>
+              <img src={cal} alt="icone représantant un calendrier" />
+              <span className="gras">
+                Ouvert du mardi au dimanche. Fermé le lundi.
+              </span>
             </p>
           </div>
-
           <ul>
             <li>Lundi : Fermé</li>
             <li>Mardi : 11h-13h30 | 18h-22h</li>
@@ -111,6 +112,10 @@ export default function Home({ helmet }) {
             <li>Dimanche :18h-22h</li>
           </ul>
         </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1262.0745646142047!2d55.45360514743608!3d-20.8829594607785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21827f06fb2d8581%3A0x24bcf04f3459092f!2s94%20Rue%20Sainte-Marie%2C%20Saint-Denis%2097400%2C%20La%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1675499040432!5m2!1sfr!2sfr"
+          title="google maps"
+        />
       </section>
     </main>
   );

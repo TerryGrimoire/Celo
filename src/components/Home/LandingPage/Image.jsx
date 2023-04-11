@@ -1,6 +1,5 @@
 import React from "react";
 import background from "../../../assets/background.mp4";
-import backgroundD from "../../../assets/background.jpg";
 import halal from "../../../assets/halal.png";
 
 function Image({ title }) {
@@ -25,11 +24,10 @@ function Image({ title }) {
     <div className="landing_page container">
       <h1>{title}</h1>
       <h2>{landingData.h2}</h2>
-      <video autoPlay muted loop className="background_img mobile">
+      <video autoPlay muted loop className="background_img">
         <source src={background} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <img src={backgroundD} alt="" className="background_img desktop" />
       <img src={halal} alt="label halal Réunion" className="halal" />
       <div className="veil" />
     </div>
