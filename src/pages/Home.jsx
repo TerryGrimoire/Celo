@@ -98,7 +98,7 @@ export default function Home({ helmet }) {
             <p>
               <img src={cal} alt="icone représantant un calendrier" />
               <span className="gras">
-                Ouvert du mardi au dimanche. Fermé le lundi.
+                Ouvert du lundi au samedi. Fermé le dimanche.
               </span>
             </p>
           </div>
@@ -134,7 +134,7 @@ export default function Home({ helmet }) {
           </ul>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1262.0745646142047!2d55.45360514743608!3d-20.8829594607785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21827f06fb2d8581%3A0x24bcf04f3459092f!2s94%20Rue%20Sainte-Marie%2C%20Saint-Denis%2097400%2C%20La%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1675499040432!5m2!1sfr!2sfr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.3525165309147!2d55.289221314881964!3d-20.938353986047336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x218288f33adad9cf%3A0x19c69f4ff6d2eb3!2s39%20Rue%20L%C3%A9on%20de%20Lepervanche%2C%20Le%20Port%2097420%2C%20La%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1681216827244!5m2!1sfr!2sfr"
           title="google maps"
         />
       </section>
