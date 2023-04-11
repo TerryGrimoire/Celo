@@ -102,14 +102,35 @@ export default function Home({ helmet }) {
               </span>
             </p>
           </div>
-          <ul>
-            <li>Lundi : Fermé</li>
-            <li>Mardi : 11h-13h30 | 18h-22h</li>
-            <li>Mercredi : 11h-13h30 | 18h-22h</li>
-            <li>Jeudi : 11h-13h30 | 18h-22h</li>
-            <li>Vendredi : 11h-13h30 | 18h-22h</li>
-            <li>Samedi : 18h-22h</li>
-            <li>Dimanche :18h-22h</li>
+          <ul className="horaires">
+            <li>
+              <h5>Lundi :</h5> <span>10h00 - 14h30</span>
+              <span>18h30 - 22h00</span>{" "}
+            </li>
+            <li>
+              <h5>Mardi :</h5> <span>11h45 - 13h45 </span>{" "}
+              <span>18h00 - 21h30</span>
+            </li>
+            <li>
+              <h5>Mercredi :</h5> <span>11h45 - 13h45 </span>{" "}
+              <span> 18h00 - 21h30</span>
+            </li>
+            <li>
+              <h5>Jeudi :</h5> <span>11h45 - 13h45</span>{" "}
+              <span>18h00 - 21h30</span>
+            </li>
+            <li>
+              <h5>Vendredi : </h5> <span>11h45 - 13h45 </span>{" "}
+              <span>18h30 - 22h00</span>
+            </li>
+            <li>
+              <h5>Samedi :</h5> <span>18h30 - 22h00</span>
+              <span>18h30 - 22h00</span>
+            </li>
+            <li>
+              <h5>Dimanche :</h5> <span>18h30 - 22h00</span>
+              <span>18h30 - 22h00</span>
+            </li>
           </ul>
         </div>
         <iframe
