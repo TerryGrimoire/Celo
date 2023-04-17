@@ -6,12 +6,12 @@ function Mentions() {
   }, []);
 
   const information = {
-    siteLink: " https://planetpizza.netlify.app ",
-    companyName: " Planet Pizza ",
-    ownerName: " Mathieu Gueguin ",
-    email: " mathieugueguin@live.fr ",
-    phone: " 0262477861 ",
-    address: " 94 rue saint-marie, st Denis",
+    siteLink: " https://tabledecelo.grimoire.re ",
+    companyName: " À la table de Celo ",
+    ownerName: " France Marcel ",
+    email: " mariejeanne.dorique@gmail.com ",
+    phone: " 0692926601 ",
+    address: " 39 bis Léon Lepervanche ",
     hostName: " Hostinger ",
     hostAddress: " 143 Rue Emile Julien, 34070 Montpellier, France",
     hostPhone: " 08 92 97 70 93 ",
