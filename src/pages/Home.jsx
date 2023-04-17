@@ -78,7 +78,7 @@ export default function Home({ helmet }) {
           </p>
         </article>
       </section>
-      <section>
+      <section className="secondpart">
         <div>
           <h2>Nous contacter</h2>
           <div className="locaux">
@@ -98,40 +98,10 @@ export default function Home({ helmet }) {
             <p>
               <img src={cal} alt="icone représantant un calendrier" />
               <span className="gras">
-                Ouvert du lundi au samedi. Fermé le dimanche.
+                Ouvert du lundi au samedi de 10h30 à 15h00.
               </span>
             </p>
           </div>
-          <ul className="horaires">
-            <li>
-              <h5>Lundi :</h5> <span>10h00 - 14h30</span>
-              <span>18h30 - 22h00</span>{" "}
-            </li>
-            <li>
-              <h5>Mardi :</h5> <span>11h45 - 13h45 </span>{" "}
-              <span>18h00 - 21h30</span>
-            </li>
-            <li>
-              <h5>Mercredi :</h5> <span>11h45 - 13h45 </span>{" "}
-              <span> 18h00 - 21h30</span>
-            </li>
-            <li>
-              <h5>Jeudi :</h5> <span>11h45 - 13h45</span>{" "}
-              <span>18h00 - 21h30</span>
-            </li>
-            <li>
-              <h5>Vendredi : </h5> <span>11h45 - 13h45 </span>{" "}
-              <span>18h30 - 22h00</span>
-            </li>
-            <li>
-              <h5>Samedi :</h5> <span>18h30 - 22h00</span>
-              <span>18h30 - 22h00</span>
-            </li>
-            <li>
-              <h5>Dimanche :</h5> <span>18h30 - 22h00</span>
-              <span>18h30 - 22h00</span>
-            </li>
-          </ul>
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.3525165309147!2d55.289221314881964!3d-20.938353986047336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x218288f33adad9cf%3A0x19c69f4ff6d2eb3!2s39%20Rue%20L%C3%A9on%20de%20Lepervanche%2C%20Le%20Port%2097420%2C%20La%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1681216827244!5m2!1sfr!2sfr"

@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Mentions from "./pages/Mentions";
 import Error from "./pages/Error";
+import Defilant from "./components/Defilant";
 
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
     <BrowserRouter>
       <HelmetProvider>
         <Header helmet={helmet} />
+        <Defilant />
         <Routes>
           <Route path="/" element={<Home helmet={helmet} />} />
           <Route path="/Services" element={<Services helmet={helmet} />} />
